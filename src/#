@@ -1,6 +1,0 @@
-use std::collections::Hashset;
-struct Minesweeper {
-    width: usize,
-    height: usize,
-    open_fields: Hashset<(usize, usize)>
-}
